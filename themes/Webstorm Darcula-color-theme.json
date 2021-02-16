@@ -93,11 +93,19 @@
       "scope": [
         "keyword",
         "keyword.operator.new",
-        "punctuation.terminator.statement",
         "variable.language.this",
         "constant.character.escape",
         "meta.namespace.declaration",        
         "punctuation.terminator.rule.css",
+        "punctuation.terminator.statement",
+				"punctuation.separator.comma",
+				"punctuation.separator.parameter",
+				"punctuation.separator.dictionary.key-value.json",
+				"punctuation.separator.dictionary.key-value.json.comments",
+				"punctuation.separator.dictionary.pair.json",
+				"punctuation.separator.dictionary.pair.json.comments",
+				"punctuation.separator.array.json",
+				"punctuation.separator.array.json.comments",
       ],
       "settings": {
         "foreground": "#CC7832",
@@ -172,6 +180,10 @@
         "meta.object-literal.key",
         "variable",
         "variable.other.object.property",
+        "support.type.property-name",
+				"support.type.property-name.json.comments",
+				"punctuation.support.type.property-name.end.json.comments",
+				"punctuation.support.type.property-name.begin.json.comments"
       ],
       "settings": {
 				"foreground": "#9876AA"
