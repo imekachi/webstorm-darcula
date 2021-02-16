@@ -1,0 +1,21 @@
+{
+    "name": "webstorm-darcula",
+    "displayName": "Webstorm Darcula",
+    "description": "A clone of IntelliJ Webstorm Darcula theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Webstorm Darcula",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Webstorm Darcula-color-theme.json"
+            }
+        ]
+    }
+}
