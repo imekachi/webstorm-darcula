@@ -31,6 +31,7 @@
 		"editorIndentGuide.background": "#353535",
 		"editorLineNumber.activeForeground": "#a4a3a3",
 		"editorLineNumber.foreground": "#606366",
+    "editorUnnecessaryCode.opacity": "#00000070",
 		"gitDecoration.addedResourceForeground": "#629755",
 		"gitDecoration.conflictingResourceForeground": "#d5756c",
 		"gitDecoration.deletedResourceForeground": "#6c6c6c",
@@ -52,6 +53,8 @@
 		"panelTitle.activeBorder": "#bababa",
 		"panelTitle.activeForeground": "#bababa",
 		"panelTitle.inactiveForeground": "#888888",
+    "parameterHints.hintBackground": "#3B3B3B",
+    "parameterHints.hintForeground": "#787878",
 		"scrollbarSlider.activeBackground": "#707070",
 		"scrollbarSlider.background": "#505050",
 		"scrollbarSlider.hoverBackground": "#676767",
@@ -138,11 +141,13 @@
         "support.function.construct.php",
         "keyword.operator.logical.php",
         "punctuation.terminator.expression.php",
-        "storage.type.js",
-        "storage.type.ts",
+        "storage.type",
         "keyword.operator.or.regexp",
         "storage.type.function",
         "keyword.operator.expression.typeof",
+        "support.type.primitive",
+        "punctuation.terminator.rule",
+        "storage.modifier",
       ],
       "settings": {
         "foreground": "#CC7832",
@@ -175,6 +180,8 @@
         "markup.inline.raw.string.markdown",
         "punctuation.definition.markdown",
         "fenced_code.block.language.markdown",
+        "meta.at-rule.header.css",
+        "entity.other.attribute-name.class.tailwind",
       ],
       "settings": {
 				"foreground": "#FFC66D"
@@ -195,12 +202,8 @@
       "scope": [
         "support.constant.property-value.css",
         "meta.property-value.css",
-        "keyword.other.unit.px.css",
-        "keyword.other.unit.rem.css",
-        "keyword.other.unit.em.css",
-        "keyword.other.unit.vh.css",
-        "keyword.other.unit.vw.css",
-        "keyword.other.unit.ch.css",
+        "meta.property-value.css variable.parameter",
+        "meta.property-value.css keyword.other.unit",
       ],
       "settings": {
         "foreground": "#A5C261",
@@ -255,7 +258,9 @@
       "name": "GreenBluish",
       "scope": [
         "meta.type.parameters.ts",
-        "entity.name.type.ts meta.type.parameters.ts",
+        "meta.type.parameters.tsx",
+        "meta.type.parameters.ts entity.name.type.ts",
+        "meta.type.parameters.tsx entity.name.type.tsx",
       ],
       "settings": {
         "foreground": "#507874",
@@ -285,18 +290,20 @@
 				"punctuation.support.type.property-name.begin.json.comments",
         "support.type.object.module",
         "support.variable.property",
+        "meta.field.declaration.tsx entity.name.function.tsx",
       ],
       "settings": {
 				"foreground": "#9876AA"
 			}
     },
     {
-      "name": "Purple Bold",
+      "name": "Purple Bold Italic",
       "scope": [
         "support.constant.math",
 				"support.constant.dom",
 				"support.constant.json",
         "markup.heading.markdown",
+        "support.class.builtin",
       ],
       "settings": {
 				"foreground": "#9876AA",
@@ -332,6 +339,12 @@
         "punctuation.definition.template-expression.begin.js",
         "punctuation.definition.template-expression.end.js",
         "punctuation.separator.key-value.js",
+        "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.tsx",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "meta.var-single-variable.expr.tsx entity.name.type.tsx",
+        "meta.var-single-variable.expr.ts entity.name.type.ts",
 			],
 			"settings": {
 				"foreground": "#A9B7C6"
@@ -346,6 +359,7 @@
         "punctuation.definition.entity",
         "meta.property-name.css",
         "meta.property-list.scss entity.name.tag.css",
+        "entity.other.attribute-name",
       ],
       "settings": {
         "foreground": "#BABABA",
