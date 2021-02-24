@@ -1,7 +1,7 @@
 {
     "name": "webstorm-darcula",
     "displayName": "Webstorm Darcula",
-    "description": "A clone of IntelliJ Webstorm Darcula theme",
+    "description": "As close as possible to IntelliJ Webstorm Darcula theme, (and some improvements)",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.53.0"
