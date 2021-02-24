@@ -17,7 +17,11 @@
 		"editor.foreground": "#a9b7c6",
 		"editor.inactiveSelectionBackground": "#3a3d41",
 		"editor.lineHighlightBackground": "#323232",
+    "editor.selectionBackground": "#214283",
 		"editor.selectionHighlightBackground": "#415a41",
+    "editor.wordHighlightBackground": "#344134",
+    "editor.wordHighlightStrongBackground": "#344134",
+    "editor.symbolHighlightBackground": "#32593D",
 		"editorError.foreground": "#bc3f3c",
 		"editorGutter.addedBackground": "#384c38",
 		"editorGutter.background": "#313336",
@@ -30,8 +34,11 @@
 		"gitDecoration.addedResourceForeground": "#629755",
 		"gitDecoration.conflictingResourceForeground": "#d5756c",
 		"gitDecoration.deletedResourceForeground": "#6c6c6c",
+    "gitDecoration.stageDeletedResourceForeground": "#6c6c6c",
 		"gitDecoration.ignoredResourceForeground": "#848504",
+    "gitDecoration.renamedResourceForeground": "#6897bb",
 		"gitDecoration.modifiedResourceForeground": "#6897bb",
+		"gitDecoration.stageModifiedResourceForeground": "#6897bb",
 		"gitDecoration.untrackedResourceForeground": "#d1675a",
 		"input.background": "#3c3f41",
 		"input.border": "#4b4b4b",
@@ -89,7 +96,25 @@
 	},
 	"tokenColors": [
     {
-      "name": "Keyword",
+      "name": "Comment",
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+				"foreground": "#808080"
+			}
+    },
+    {
+      "name": "Gray",
+      "scope": [
+        "markup.fenced_code.block.markdown",
+      ],
+      "settings": {
+        "foreground": "#72737A",
+      }
+    },
+    {
+      "name": "Orange",
       "scope": [
         "keyword",
         "keyword.operator.new",
@@ -106,66 +131,57 @@
 				"punctuation.separator.dictionary.pair.json.comments",
 				"punctuation.separator.array.json",
 				"punctuation.separator.array.json.comments",
+        "punctuation.separator.list.comma.css",
+        "punctuation.section.embedded.begin.php",
+        "punctuation.section.embedded.end.php",
+        "constant.language",
+        "support.function.construct.php",
+        "keyword.operator.logical.php",
+        "punctuation.terminator.expression.php",
+        "storage.type.js",
+        "storage.type.ts",
+        "keyword.operator.or.regexp",
+        "storage.type.function",
+        "keyword.operator.expression.typeof",
       ],
       "settings": {
         "foreground": "#CC7832",
       }
     },
-		{
-			"name": "Doc comment",
-			"scope": [
-        "comment.block.documentation",
-        "storage.type.class.jsdoc",
-        "variable.other.jsdoc",
-        "entity.name.type.instance.jsdoc",
-			],
-			"settings": {
-        "fontStyle": "italic",
-				"foreground": "#629755"
-			}
-		},
     {
-      "name": "Comment",
-      "scope": [
-        "comment"
-      ],
-      "settings": {
-				"foreground": "#808080"
-			}
-    },
-    {
-      "name": "String",
-      "scope": [
-        "string",
-      ],
-      "settings": {
-				"foreground": "#6A8759"
-			}
-    },
-    {
-      "name": "Number",
-      "scope": [
-        "constant.numeric",
-        "string.regexp",
-        "meta.function.color.css",
-        "constant.other.color.rgb-value.hex.css",
-      ],
-      "settings": {
-				"foreground": "#6897BB"
-			}
-    },
-    {
-      "name": "Functions",
+      "name": "Yellow",
       "scope": [
         "entity.name.function",
-        "meta.selector.css"
+        "meta.selector.css",
+        "meta.function.color.css",
+        "keyword.other.doctype.xml",
+				"entity.name.tag",
+				"support.class",
+				"punctuation.definition.tag",
+        "support.function",
+        "punctuation.definition.character-class.regexp",
+        "constant.other.character-class.regexp",
+        "punctuation.definition.group.regexp",
+        "punctuation.definition.group.assertion.regexp",
+        "entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.mixin.css",
+				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.parent-selector.css",
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css",
+				"source.css.less entity.other.attribute-name.id",
+				"entity.other.attribute-name.attribute.scss",
+				"entity.other.attribute-name.scss",
+        "markup.inline.raw.string.markdown",
+        "punctuation.definition.markdown",
+        "fenced_code.block.language.markdown",
       ],
       "settings": {
 				"foreground": "#FFC66D"
 			}
     },
     {
-      "name": "Decorators",
+      "name": "YellowGreenish",
       "scope": [
         "punctuation.decorator",
         "meta.decorator entity.name.function",
@@ -175,66 +191,7 @@
 			}
     },
     {
-      "name": "Global variable",
-      "scope": [
-        "meta.object-literal.key",
-        "variable",
-        "variable.other.object.property",
-        "support.type.property-name",
-				"support.type.property-name.json.comments",
-				"punctuation.support.type.property-name.end.json.comments",
-				"punctuation.support.type.property-name.begin.json.comments"
-      ],
-      "settings": {
-				"foreground": "#9876AA"
-			}
-    },
-		{
-			"name": "Variables name",
-			"scope": [
-        "variable.parameter",
-        "variable.other.object",
-        "variable.other.constant",
-				"variable.other.readwrite",
-        "storage.type.function.arrow",
-        "keyword.operator",
-        "entity.name.type.ts",
-        "entity.name.type.class",
-        "entity.name.type.module",
-        "entity.name.type.interface",
-        "entity.name.type.alias",
-        "punctuation.definition.typeparameters",
-        "punctuation.definition.block",
-        "meta.brace.round",
-        "meta.brace.square",
-        "punctuation.definition.parameters",
-        "punctuation.accessor",
-			],
-			"settings": {
-				"foreground": "#A9B7C6"
-			}
-		},
-    {
-      "name": "Type Parameter",
-      "scope": [
-        "entity.name.type.ts meta.type.parameters.ts"
-      ],
-      "settings": {
-        "foreground": "#507874",
-      }
-    },
-    {
-      "name": "CSS Property",
-      "scope": [
-        "support.type.property-name.css",
-        "keyword.other.unit.percentage.css",
-      ],
-      "settings": {
-        "foreground": "#BABABA",
-      }
-    },
-    {
-      "name": "CSS Value",
+      "name": "GreenYellowish",
       "scope": [
         "support.constant.property-value.css",
         "meta.property-value.css",
@@ -248,6 +205,151 @@
       "settings": {
         "foreground": "#A5C261",
       }
-    }
+    },
+		{
+			"name": "Green Comment Italic",
+			"scope": [
+        "comment.block.documentation",
+        "variable.other.jsdoc",
+        "entity.name.type.instance.jsdoc",
+			],
+			"settings": {
+        "fontStyle": "italic",
+				"foreground": "#629755"
+			}
+		},
+    {
+      "name": "Green Comment Italic Bold Underline",
+			"scope": [
+        "punctuation.definition.block.tag.jsdoc",
+        "storage.type.class.jsdoc",
+			],
+			"settings": {
+        "fontStyle": "italic bold underline",
+				"foreground": "#629755"
+			}
+		},
+    {
+      "name": "Green String",
+      "scope": [
+        "string",
+        "constant.other.character-class.range.regexp",
+        "constant.other.character-class.set.regexp",
+        "constant.character.escape.backslash.regexp",
+      ],
+      "settings": {
+				"foreground": "#6A8759"
+			}
+    },
+    {
+      "name": "Green String Italic",
+      "scope": [
+        "markup.quote.markdown",
+      ],
+      "settings": {
+        "foreground": "#6A8759",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "GreenBluish",
+      "scope": [
+        "meta.type.parameters.ts",
+        "entity.name.type.ts meta.type.parameters.ts",
+      ],
+      "settings": {
+        "foreground": "#507874",
+      }
+    },
+    {
+      "name": "Blue",
+      "scope": [
+        "constant.numeric",
+        "string.regexp",
+        "constant.other.color.rgb-value.hex.css",
+        "keyword.operator.quantifier.regexp",
+      ],
+      "settings": {
+				"foreground": "#6897BB"
+			}
+    },
+    {
+      "name": "Purple",
+      "scope": [
+        "meta.object-literal.key",
+        "variable",
+        "variable.other.object.property",
+        "support.type.property-name",
+				"support.type.property-name.json.comments",
+				"punctuation.support.type.property-name.end.json.comments",
+				"punctuation.support.type.property-name.begin.json.comments",
+        "support.type.object.module",
+        "support.variable.property",
+      ],
+      "settings": {
+				"foreground": "#9876AA"
+			}
+    },
+    {
+      "name": "Purple Bold",
+      "scope": [
+        "support.constant.math",
+				"support.constant.dom",
+				"support.constant.json",
+        "markup.heading.markdown",
+      ],
+      "settings": {
+				"foreground": "#9876AA",
+        "fontStyle": "italic bold",
+			}
+    },
+		{
+			"name": "WhiteBluish",
+			"scope": [
+        "variable.parameter",
+        "variable.other.object",
+        "variable.other.constant",
+				"variable.other.readwrite",
+        "storage.type.function.arrow",
+        "keyword.operator",
+        "entity.name.type.ts",
+        "entity.name.type.class",
+        "entity.name.type.module",
+        "entity.name.type.interface",
+        "entity.name.type.alias",
+        "entity.name.type.enum",
+        "punctuation.definition.typeparameters",
+        "punctuation.definition.block",
+        "meta.brace.round",
+        "meta.brace.square",
+        "punctuation.definition.parameters",
+        "punctuation.accessor",
+        "punctuation.section.function.begin.bracket.round.css",
+        "punctuation.section.function.end.bracket.round.css",
+        "punctuation.section.array.begin.php",
+        "punctuation.section.array.end.php",
+        "punctuation.terminator.statement.php",
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js",
+        "punctuation.separator.key-value.js",
+			],
+			"settings": {
+				"foreground": "#A9B7C6"
+			}
+		},
+    {
+      "name": "White",
+      "scope": [
+        "support.type.property-name.css",
+        "keyword.other.unit.percentage.css",
+        "entity.other.attribute-name.html",
+        "punctuation.definition.entity",
+        "meta.property-name.css",
+        "meta.property-list.scss entity.name.tag.css",
+      ],
+      "settings": {
+        "foreground": "#BABABA",
+      }
+    },
 	]
 }
