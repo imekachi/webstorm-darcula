@@ -162,6 +162,13 @@
         "support.type.primitive",
         "punctuation.terminator.rule",
         "storage.modifier",
+        "punctuation.definition.keyword",
+        "punctuation.definition.block.begin.svelte",
+        "punctuation.definition.block.end.svelte",
+        "punctuation.section.embedded.begin.svelte",
+        "punctuation.section.embedded.end.svelte",
+        "meta.script.svelte entity.name.label",
+        "meta.script.svelte punctuation.separator.label",
       ],
       "settings": {
         "foreground": "#CC7832",
@@ -215,9 +222,15 @@
       "name": "GreenYellowish",
       "scope": [
         "support.constant.property-value.css",
-        "meta.property-value.css",
         "meta.property-value.css variable.parameter",
         "meta.property-value.css keyword.other.unit",
+        "punctuation.separator.key-value.svelte",
+        "punctuation.separator.key-value.html",
+        "string.unquoted.svelte",
+        "string.quoted.svelte",
+        "string.quoted.double.html",
+        "string.quoted.single.html",
+        "string.unquoted.html",
       ],
       "settings": {
         "foreground": "#A5C261",
@@ -253,6 +266,7 @@
         "constant.other.character-class.range.regexp",
         "constant.other.character-class.set.regexp",
         "constant.character.escape.backslash.regexp",
+        "meta.embedded.expression string.quoted",
       ],
       "settings": {
 				"foreground": "#6A8759"
