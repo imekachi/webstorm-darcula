@@ -160,6 +160,7 @@
         "keyword.operator.redirect.shell",
         "keyword.operator.list.shell",
         "keyword.operator.expansion.shell",
+        "entity.name.tag.yaml",
       ],
       "settings": {
         "foreground": "#CC7832",
@@ -367,6 +368,7 @@
         "punctuation.definition.template-expression.end",
         "meta.var-single-variable.expr.tsx entity.name.type.tsx",
         "meta.var-single-variable.expr.ts entity.name.type.ts",
+        "string.unquoted.plain.out.yaml",
 			],
 			"settings": {
 				"foreground": "#A9B7C6"
