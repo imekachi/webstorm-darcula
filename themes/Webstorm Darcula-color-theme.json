@@ -161,6 +161,10 @@
         "keyword.operator.list.shell",
         "keyword.operator.expansion.shell",
         "entity.name.tag.yaml",
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown",
+        "punctuation.definition.metadata.markdown",
       ],
       "settings": {
         "foreground": "#CC7832",
@@ -299,6 +303,16 @@
       ],
       "settings": {
 				"foreground": "#6897BB"
+			}
+    },
+    {
+      "name": "Bright Blue",
+      "scope": [
+        "markup.underline.link.image.markdown",
+        "markup.underline.link.markdown",
+      ],
+      "settings": {
+				"foreground": "#589DF6"
 			}
     },
     {
