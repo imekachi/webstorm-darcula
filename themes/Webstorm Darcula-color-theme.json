@@ -163,6 +163,7 @@
         "punctuation.terminator.expression.php",
         "storage.type",
         "keyword.operator.or.regexp",
+        "constant.character.escape.backslash.regexp",
         "storage.type.function",
         "keyword.operator.expression.typeof",
         "support.type.primitive",
@@ -274,9 +275,9 @@
       "name": "Green String",
       "scope": [
         "string",
+        "string.regexp",
         "constant.other.character-class.range.regexp",
         "constant.other.character-class.set.regexp",
-        "constant.character.escape.backslash.regexp",
         "meta.embedded.expression string.quoted",
       ],
       "settings": {
@@ -309,7 +310,6 @@
       "name": "Blue",
       "scope": [
         "constant.numeric",
-        "string.regexp",
         "constant.other.color.rgb-value.hex.css",
         "keyword.operator.quantifier.regexp",
       ],
