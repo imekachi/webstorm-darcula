@@ -169,6 +169,9 @@
         "punctuation.section.embedded.end.svelte",
         "meta.script.svelte entity.name.label",
         "meta.script.svelte punctuation.separator.label",
+        "keyword.operator.redirect.shell",
+        "keyword.operator.list.shell",
+        "keyword.operator.expansion.shell",
       ],
       "settings": {
         "foreground": "#CC7832",
