@@ -310,6 +310,8 @@
       "name": "Blue",
       "scope": [
         "constant.numeric",
+        "string.regexp punctuation.definition.string.begin",
+        "string.regexp punctuation.definition.string.end",
         "constant.other.color.rgb-value.hex.css",
         "keyword.operator.quantifier.regexp",
       ],
