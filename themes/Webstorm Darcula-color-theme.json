@@ -223,7 +223,9 @@
       "scope": [
         "support.constant.property-value.css",
         "meta.property-value.css variable.parameter",
+        "meta.property-value.scss variable.parameter",
         "meta.property-value.css keyword.other.unit",
+        "meta.property-value.scss keyword.other.unit",
         "punctuation.separator.key-value.svelte",
         "punctuation.separator.key-value.html",
         "string.unquoted.svelte",
