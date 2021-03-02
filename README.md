@@ -1,7 +1,7 @@
 # WebStorm Darcula VSCode theme
 As close as possible to IntelliJ Webstorm Darcula theme, (and some improvements)
 
-![Preview](https://raw.githubusercontent.com/imekachi/webstorm-darcula/master/preview.png)
+![Preview](https://raw.githubusercontent.com/imekachi/webstorm-darcula/master/images/preview.png)
 
 I've tried all IntelliJ Darcula theme available on VSCode marketplace, none of them is close enough to the WebStorm vibe for my liking, so I decided to create my own.
 
@@ -27,7 +27,7 @@ If you want to add more language support or have any idea to improve syntax high
 - Diff editor
 - Search text
 
-![Diff Editor Preview](https://raw.githubusercontent.com/imekachi/webstorm-darcula/master/preview-diff.png)
+![Diff Editor Preview](https://raw.githubusercontent.com/imekachi/webstorm-darcula/master/images/preview-diff.png)
 
 ## Limitation
 Since VSCode relies on textmate scopes as a sector for theme which sometimes cannot differentiate some syntax like WebStorm does. I cannot highlight some syntax, for example, global variables in JS, Generic Type in TS.
