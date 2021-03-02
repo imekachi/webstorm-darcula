@@ -37,5 +37,5 @@ Since VSCode relies on textmate scopes as a sector for theme which sometimes can
 - [WebStorm](https://www.jetbrains.com/webstorm/)
 
 ## License
-Feel free to use and do anything you want without commercialize it.
+MIT
 

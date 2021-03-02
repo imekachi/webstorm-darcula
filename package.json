@@ -2,6 +2,10 @@
   "name": "webstorm-darcula",
   "displayName": "Webstorm Darcula",
   "description": "As close as possible to IntelliJ Webstorm Darcula theme, (and some improvements)",
+  "publisher": "imekachi",
+  "author": {
+    "name": "Saran Weerakun"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.53.0"
@@ -17,5 +21,19 @@
         "path": "./themes/Webstorm Darcula-color-theme.json"
       }
     ]
-  }
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#2b2b2b",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imekachi/webstorm-darcula/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imekachi/webstorm-darcula.git"
+  },
+  "homepage": "https://github.com/imekachi/webstorm-darcula"
 }
