@@ -8,7 +8,7 @@ I've tried all IntelliJ Darcula theme available on VSCode marketplace, none of t
 ## Language Support
 - Javascript
 - TypeScript
-- React, Svelte
+- React, Svelte, Vue
 - HTML
 - Markdown
 - JSON

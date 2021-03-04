@@ -174,6 +174,7 @@
         "punctuation.definition.string.begin.markdown",
         "punctuation.definition.string.end.markdown",
         "punctuation.definition.metadata.markdown",
+        "meta.directive.vue keyword.operator.expression.in.js",
       ],
       "settings": {
         "foreground": "#CC7832",
@@ -208,6 +209,7 @@
         "fenced_code.block.language.markdown",
         "meta.at-rule.header.css",
         "entity.other.attribute-name.class.tailwind",
+        "entity.other.attribute-name.css",
       ],
       "settings": {
 				"foreground": "#FFC66D"
@@ -231,6 +233,7 @@
         "meta.property-value.scss variable.parameter",
         "meta.property-value.css keyword.other.unit",
         "meta.property-value.scss keyword.other.unit",
+        "meta.definition.variable.scss keyword.other.unit",
         "punctuation.separator.key-value.svelte",
         "punctuation.separator.key-value.html",
         "string.unquoted.svelte",
@@ -238,6 +241,8 @@
         "string.quoted.double.html",
         "string.quoted.single.html",
         "string.unquoted.html",
+        "meta.directive.vue punctuation.definition.string.begin.html",
+        "meta.directive.vue punctuation.definition.string.end.html",
       ],
       "settings": {
         "foreground": "#A5C261",
@@ -315,6 +320,15 @@
 			}
     },
     {
+      "name": "Another blue",
+      "scope": [
+        "variable.scss",
+      ],
+      "settings": {
+        "foreground": "#6D9CBE",
+      }
+    },
+    {
       "name": "Bright Blue",
       "scope": [
         "markup.underline.link.image.markdown",
@@ -337,6 +351,7 @@
         "support.type.object.module",
         "support.variable.property",
         "meta.field.declaration.tsx entity.name.function.tsx",
+        "meta.tag.block.any.html meta.directive.vue variable.other.readwrite.js",
       ],
       "settings": {
 				"foreground": "#9876AA"
@@ -392,6 +407,7 @@
         "meta.var-single-variable.expr.tsx entity.name.type.tsx",
         "meta.var-single-variable.expr.ts entity.name.type.ts",
         "string.unquoted.plain.out.yaml",
+        "meta.directive.vue punctuation.separator.key-value.html",
 			],
 			"settings": {
 				"foreground": "#A9B7C6"
