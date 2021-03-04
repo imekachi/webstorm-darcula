@@ -2,8 +2,12 @@
 
 All notable changes to the "webstorm-darcula" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## v1.2.0
+- Add support for GraphQL, Angular
 
+## v1.1.0
+- Add support for Vue
+
+## v1.0.0
 - Initial release
