@@ -3,7 +3,10 @@ As close as possible to IntelliJ Webstorm Darcula theme, (and some improvements)
 
 ![Preview](https://raw.githubusercontent.com/imekachi/webstorm-darcula/master/images/preview.png)
 
-I've tried all IntelliJ Darcula theme available on VSCode marketplace, none of them is close enough to the WebStorm vibe for my liking, so I decided to create my own.
+I've tried most of IntelliJ Darcula theme available on VSCode marketplace, none of them is close enough to the WebStorm vibe for my liking, so I decided to create my own.
+
+## Installation
+[Download from VS Marketplace](https://marketplace.visualstudio.com/items?itemName=imekachi.webstorm-darcula)
 
 ## Language Support
 - Javascript
