@@ -175,6 +175,8 @@
         "punctuation.definition.string.end.markdown",
         "punctuation.definition.metadata.markdown",
         "meta.directive.vue keyword.operator.expression.in.js",
+        "punctuation.colon.graphql",
+        "keyword.operator.nulltype.graphql",
       ],
       "settings": {
         "foreground": "#CC7832",
