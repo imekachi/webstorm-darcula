@@ -1,5 +1,5 @@
 # WebStorm Darcula VSCode theme
-As close as possible to IntelliJ Webstorm Darcula theme, (and some improvements)
+As close as possible to [IntelliJ WebStorm](https://www.jetbrains.com/webstorm/) Darcula theme, (and some improvements)
 
 ![Preview](https://raw.githubusercontent.com/imekachi/webstorm-darcula/master/images/preview.png)
 
