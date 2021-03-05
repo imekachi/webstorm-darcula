@@ -149,7 +149,6 @@
         "punctuation.section.embedded.end.php",
         "constant.language",
         "support.function.construct.php",
-        "keyword.operator.logical.php",
         "punctuation.terminator.expression.php",
         "storage.type",
         "keyword.operator.or.regexp",
@@ -410,6 +409,7 @@
         "meta.var-single-variable.expr.ts entity.name.type.ts",
         "string.unquoted.plain.out.yaml",
         "meta.directive.vue punctuation.separator.key-value.html",
+        "keyword.operator.logical.php",
 			],
 			"settings": {
 				"foreground": "#A9B7C6"

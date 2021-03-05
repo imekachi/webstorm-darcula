@@ -14,6 +14,7 @@ I've tried most of IntelliJ Darcula theme available on VSCode marketplace, none 
 - React, Svelte, Vue, Angular
 - GraphQL
 - HTML
+- PHP
 - Markdown
 - JSON
 - shell script (.sh)
