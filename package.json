@@ -7,6 +7,9 @@
 		"name": "Saran Weerakun"
 	},
 	"version": "1.2.2",
+  "scripts": {
+    "release": "export $(cat .env | xargs) && semantic-release"
+  },
 	"engines": {
 		"vscode": "^1.53.0"
 	},
@@ -40,5 +43,20 @@
 		"id": "b994340b-4d9e-477d-baa0-2f915f573e63",
 		"publisherDisplayName": "imekachi",
 		"publisherId": "1597437d-a360-4ad9-b4da-3bd2827846d4"
-	}
+	},
+	"devDependencies": {
+		"@semantic-release/changelog": "^5.0.1",
+		"@semantic-release/git": "^9.0.0",
+		"semantic-release": "^17.4.1"
+	},
+  "release": {
+    "ci": false,
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ]
+  }
 }
