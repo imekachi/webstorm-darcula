@@ -6,7 +6,7 @@
   "author": {
     "name": "Saran Weerakun"
   },
-  "version": "1.2.2",
+  "version": "1.2.3",
   "scripts": {
     "release": "export $(cat .env | xargs) && semantic-release"
   },
@@ -54,16 +54,22 @@
     "ci": false,
     "plugins": [
       "@semantic-release/commit-analyzer",
-      ["semantic-release-vsce", {
-        "packageVsix": true,
-        "yarn": true
-      }],
+      [
+        "semantic-release-vsce",
+        {
+          "packageVsix": true,
+          "yarn": true
+        }
+      ],
       "@semantic-release/release-notes-generator",
       "@semantic-release/changelog",
       "@semantic-release/git",
-      ["@semantic-release/github", {
-        "assets": "*.vsix"
-      }]
+      [
+        "@semantic-release/github",
+        {
+          "assets": "*.vsix"
+        }
+      ]
     ]
   }
 }
