@@ -392,6 +392,7 @@
 			"name": "WhiteBluish",
 			"scope": [
         "variable.parameter",
+        "variable.parameter.ts",
         "variable.other.object",
         "variable.other.constant",
 				"variable.other.readwrite",
