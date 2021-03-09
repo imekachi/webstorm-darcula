@@ -248,6 +248,7 @@
         "meta.property-value.scss variable.parameter",
         "meta.property-value.css keyword.other.unit",
         "meta.property-value.scss keyword.other.unit",
+        "meta.property-value.media-query keyword.other.unit",
         "meta.definition.variable.scss keyword.other.unit",
         "punctuation.separator.key-value.svelte",
         "punctuation.separator.key-value.html",
@@ -439,6 +440,7 @@
         "meta.property-name.css",
         "meta.property-list.scss entity.name.tag.css",
         "entity.other.attribute-name",
+        "support.type.property-name.media.css"
       ],
       "settings": {
         "foreground": "#BABABA",
