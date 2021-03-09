@@ -6,7 +6,7 @@
   "author": {
     "name": "Saran Weerakun"
   },
-  "version": "1.2.3",
+  "version": "1.2.4",
   "scripts": {
     "release": "export $(cat .env | xargs) && semantic-release"
   },

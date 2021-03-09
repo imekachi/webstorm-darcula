@@ -1,3 +1,11 @@
+## [1.2.4](https://github.com/imekachi/webstorm-darcula/compare/v1.2.3...v1.2.4) (2021-03-09)
+
+
+### Bug Fixes
+
+* 🐛 colors that should not be opaque ([0f26d8f](https://github.com/imekachi/webstorm-darcula/commit/0f26d8f18cc9cc9b613a3070ee0c6aaf54b19761))
+* 🐛 css media query syntax highlighting ([ff23c1f](https://github.com/imekachi/webstorm-darcula/commit/ff23c1f0a623fcef7d786cf6889fd7c755d5fd2f))
+
 ## [1.2.3](https://github.com/imekachi/webstorm-darcula/compare/v1.2.2...v1.2.3) (2021-03-08)
 
 
