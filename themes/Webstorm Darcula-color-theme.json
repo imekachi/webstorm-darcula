@@ -360,6 +360,7 @@
         "meta.object-literal.key",
         "variable",
         "variable.other.object.property",
+        "variable.other.constant.property",
         "support.type.property-name",
 				"support.type.property-name.json.comments",
 				"punctuation.support.type.property-name.end.json.comments",
