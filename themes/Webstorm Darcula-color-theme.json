@@ -66,6 +66,7 @@
 		"menu.foreground": "#bababa",
 		"panel.background": "#3c3f41",
 		"panel.border": "#4b4b4b",
+    "editorRuler.foreground": "#3c3c3c",
     "editorWidget.background": "#3c3f41",
     "editorWidget.foreground": "#bababa",
     "editorWidget.border": "#323232",
