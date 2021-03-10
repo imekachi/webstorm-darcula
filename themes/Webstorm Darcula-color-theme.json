@@ -207,6 +207,7 @@
         "meta.directive.vue keyword.operator.expression.in.js",
         "punctuation.colon.graphql",
         "keyword.operator.nulltype.graphql",
+        "meta.at-rule.media keyword.operator.logical"
       ],
       "settings": {
         "foreground": "#CC7832",
@@ -266,6 +267,7 @@
         "meta.property-value.css keyword.other.unit",
         "meta.property-value.scss keyword.other.unit",
         "meta.property-value.media-query keyword.other.unit",
+        "meta.at-rule.media keyword.other.unit",
         "meta.definition.variable.scss keyword.other.unit",
         "punctuation.separator.key-value.svelte",
         "punctuation.separator.key-value.html",
@@ -276,6 +278,7 @@
         "string.unquoted.html",
         "meta.directive.vue punctuation.definition.string.begin.html",
         "meta.directive.vue punctuation.definition.string.end.html",
+        "support.constant.media.css",
       ],
       "settings": {
         "foreground": "#A5C261",
