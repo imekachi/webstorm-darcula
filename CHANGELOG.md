@@ -1,3 +1,21 @@
+# [1.3.0](https://github.com/imekachi/webstorm-darcula/compare/v1.2.4...v1.3.0) (2021-03-10)
+
+
+### Bug Fixes
+
+* 🐛 color of debug icon ([e5c28be](https://github.com/imekachi/webstorm-darcula/commit/e5c28be565b0f0288fcac732fa30c6b5804aaf70))
+* 🐛 css media query highlighting ([23ccfd3](https://github.com/imekachi/webstorm-darcula/commit/23ccfd38fd2dfd3e84f94bc397ed1220e12fa619))
+* 🐛 improve colors for diff state in editor gutter ([40a35d0](https://github.com/imekachi/webstorm-darcula/commit/40a35d0556c3911d47c0e560b1bb32524f5ea5a9))
+* 🐛 improve colors for tabs and breadcrumbs ([f3e95e3](https://github.com/imekachi/webstorm-darcula/commit/f3e95e3376f97b0641e8a785ec7ca67995c45de2))
+* 🐛 invalid highlighting for constant property ([4aff4f5](https://github.com/imekachi/webstorm-darcula/commit/4aff4f57459d177a024a46a43164b37e7775c8f8))
+* 🐛 invalid highlighting for js expression in css-in-js ([f69a021](https://github.com/imekachi/webstorm-darcula/commit/f69a02116a08cc24071260392b6935d9e69afd62))
+
+
+### Features
+
+* 🎸 add color for changes in scrollbar ([123a1de](https://github.com/imekachi/webstorm-darcula/commit/123a1de60a7338f0ee2f8add9e89e3d4cfce7ecb))
+* 🎸 add color of ruler line ([523538a](https://github.com/imekachi/webstorm-darcula/commit/523538a2a9ba40ff9179682a16ce36b3ee1fde2e))
+
 ## [1.2.4](https://github.com/imekachi/webstorm-darcula/compare/v1.2.3...v1.2.4) (2021-03-09)
 
 
