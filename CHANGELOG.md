@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/imekachi/webstorm-darcula/compare/v1.3.0...v1.4.0) (2021-03-11)
+
+
+### Bug Fixes
+
+* 🐛 improve activity bar to be more like WebStorm ([0095887](https://github.com/imekachi/webstorm-darcula/commit/0095887bac855e19888a9914a2ea570e8778d9c1))
+* 🐛 improve colors of status bar, panel ([12fe54a](https://github.com/imekachi/webstorm-darcula/commit/12fe54aac840ff02ff05c9c9e00daa6e719aa668))
+* 🐛 update property name to quickInputList.focusBackground ([633c100](https://github.com/imekachi/webstorm-darcula/commit/633c1005ec9f267346c937f88a26a3c3d286f911))
+
+
+### Features
+
+* 🎸 add color for merge conflict ([78656fb](https://github.com/imekachi/webstorm-darcula/commit/78656fb242c679917253fc0b4507c26cb84f6a5c))
+
 # [1.3.0](https://github.com/imekachi/webstorm-darcula/compare/v1.2.4...v1.3.0) (2021-03-10)
 
 
