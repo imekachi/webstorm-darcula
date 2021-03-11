@@ -70,7 +70,7 @@
     "inputOption.activeForeground": "#00b9e5",
     "inputOption.activeBorder": "#00000000",
 		"list.dropBackground": "#373a3c",
-    "quickInput.list.focusBackground": "#002a40",
+    "quickInputList.focusBackground": "#002a40",
     "list.activeSelectionBackground": "#1167d1",
     "list.activeSelectionForeground": "#ffffff",
     "list.inactiveSelectionBackground": "#002a40",
