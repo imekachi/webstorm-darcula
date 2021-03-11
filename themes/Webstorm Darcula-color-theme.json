@@ -31,6 +31,8 @@
     "editor.wordHighlightStrongBackground": "#47713d4d",
     "editor.hoverHighlightBackground": "#47713d4d",
     "editor.symbolHighlightBackground": "#49e97740",
+    "editorBracketMatch.background": "#49e97740",
+    "editorBracketMatch.border": "#00000000",
 		"editorError.foreground": "#bc3f3c",
     "editorWarning.foreground": "#aeae80",
     "editorInfo.foreground": "#659C6B",
