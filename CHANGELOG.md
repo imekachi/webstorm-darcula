@@ -1,3 +1,11 @@
+## [1.4.1](https://github.com/imekachi/webstorm-darcula/compare/v1.4.0...v1.4.1) (2021-03-12)
+
+
+### Bug Fixes
+
+* 🐛 improve bracket match highlight color ([1ea2fd0](https://github.com/imekachi/webstorm-darcula/commit/1ea2fd09d9a8684e966c90f54045171e01ba439c))
+* 🐛 improve minimap find match highlight ([430396f](https://github.com/imekachi/webstorm-darcula/commit/430396f332445718381b8bae919372f3626165fc))
+
 # [1.4.0](https://github.com/imekachi/webstorm-darcula/compare/v1.3.0...v1.4.0) (2021-03-11)
 
 
