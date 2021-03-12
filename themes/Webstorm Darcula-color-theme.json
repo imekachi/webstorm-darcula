@@ -85,6 +85,7 @@
 		"menu.background": "#3b3f41",
 		"menu.foreground": "#bababa",
     "editorRuler.foreground": "#3c3c3c",
+    "minimap.findMatchHighlight": "#51956c",
     "editorWidget.background": "#3c3f41",
     "editorWidget.foreground": "#bababa",
     "editorWidget.border": "#323232",
