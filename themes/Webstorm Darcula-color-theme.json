@@ -241,17 +241,24 @@
       "name": "Yellow",
       "scope": [
         "entity.name.function",
+				"entity.name.tag",
+				"support.class",
+        "support.function",
+      ],
+      "settings": {
+				"foreground": "#FFC66D"
+			}
+    },
+    {
+      "name": "Yellow little faded",
+      "scope": [
         "meta.selector.css",
         "meta.function.color.css",
         "keyword.other.doctype.xml",
-				"entity.name.tag",
-				"support.class",
-				"punctuation.definition.tag",
-        "support.function",
-        "punctuation.definition.character-class.regexp",
-        "constant.other.character-class.regexp",
-        "punctuation.definition.group.regexp",
-        "punctuation.definition.group.assertion.regexp",
+        "meta.at-rule.header.css",
+        "punctuation.definition.tag",
+        "entity.other.attribute-name.class.tailwind",
+        "entity.other.attribute-name.css",
         "entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.class.mixin.css",
 				"entity.other.attribute-name.id.css",
@@ -264,13 +271,14 @@
         "markup.inline.raw.string.markdown",
         "punctuation.definition.markdown",
         "fenced_code.block.language.markdown",
-        "meta.at-rule.header.css",
-        "entity.other.attribute-name.class.tailwind",
-        "entity.other.attribute-name.css",
+        "punctuation.definition.character-class.regexp",
+        "constant.other.character-class.regexp",
+        "punctuation.definition.group.regexp",
+        "punctuation.definition.group.assertion.regexp",
       ],
       "settings": {
-				"foreground": "#FFC66D"
-			}
+        "foreground": "#e8bf6a",
+      }
     },
     {
       "name": "YellowGreenish",
