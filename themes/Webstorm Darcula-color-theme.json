@@ -311,6 +311,7 @@
         "meta.directive.vue punctuation.definition.string.begin.html",
         "meta.directive.vue punctuation.definition.string.end.html",
         "support.constant.media.css",
+        "support.constant.color.w3c-standard-color-name.css",
       ],
       "settings": {
         "foreground": "#A5C261",
