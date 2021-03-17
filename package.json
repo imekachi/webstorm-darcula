@@ -1,7 +1,7 @@
 {
   "name": "webstorm-darcula",
-  "displayName": "Webstorm Darcula",
-  "description": "As close as possible to IntelliJ Webstorm Darcula theme, (and some improvements)",
+  "displayName": "WebStorm Darcula Theme",
+  "description": "As close as possible to IntelliJ WebStorm Darcula theme, (and some improvements)",
   "publisher": "imekachi",
   "author": {
     "name": "Saran Weerakun"
@@ -16,6 +16,7 @@
   "categories": [
     "Themes"
   ],
+  "keywords": ["webstorm", "theme", "darcula", "intellij", "jetbrains", "idea"],
   "contributes": {
     "themes": [
       {
