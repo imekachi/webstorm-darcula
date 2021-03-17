@@ -1,3 +1,12 @@
+## [1.4.2](https://github.com/imekachi/webstorm-darcula/compare/v1.4.1...v1.4.2) (2021-03-17)
+
+
+### Bug Fixes
+
+* 🐛 improve css color name value highlighting ([5ecd44a](https://github.com/imekachi/webstorm-darcula/commit/5ecd44a91bfc9d2c90cf4405ac983d7b2386af98))
+* 🐛 improve unused code color to be even darker ([c6b666c](https://github.com/imekachi/webstorm-darcula/commit/c6b666c978e604f4e7df93cfbd5c60b500f57b28))
+* 🐛 yellow color code for css, html to match WebStorm ([3c8e5ad](https://github.com/imekachi/webstorm-darcula/commit/3c8e5adba5492a1b8961907a67bf04b376bdb909))
+
 ## [1.4.1](https://github.com/imekachi/webstorm-darcula/compare/v1.4.0...v1.4.1) (2021-03-12)
 
 

@@ -6,7 +6,7 @@
   "author": {
     "name": "Saran Weerakun"
   },
-  "version": "1.4.1",
+  "version": "1.4.2",
   "scripts": {
     "release": "export $(cat .env | xargs) && semantic-release && rm *.vsix"
   },
@@ -16,7 +16,14 @@
   "categories": [
     "Themes"
   ],
-  "keywords": ["webstorm", "theme", "darcula", "intellij", "jetbrains", "idea"],
+  "keywords": [
+    "webstorm",
+    "theme",
+    "darcula",
+    "intellij",
+    "jetbrains",
+    "idea"
+  ],
   "contributes": {
     "themes": [
       {
