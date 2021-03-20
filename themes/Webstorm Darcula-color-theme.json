@@ -241,7 +241,6 @@
       "name": "Yellow",
       "scope": [
         "entity.name.function",
-        "entity.name.tag",
         "support.class",
         "support.function",
       ],
@@ -253,6 +252,7 @@
       "name": "Yellow little faded",
       "scope": [
         "meta.selector.css",
+        "entity.name.tag",
         "meta.function.color.css",
         "keyword.other.doctype.xml",
         "meta.at-rule.header.css",
@@ -275,6 +275,7 @@
         "constant.other.character-class.regexp",
         "punctuation.definition.group.regexp",
         "punctuation.definition.group.assertion.regexp",
+        "support.class.component",
       ],
       "settings": {
         "foreground": "#e8bf6a",
