@@ -231,7 +231,8 @@
         "meta.directive.vue keyword.operator.expression.in.js",
         "punctuation.colon.graphql",
         "keyword.operator.nulltype.graphql",
-        "meta.at-rule.media keyword.operator.logical"
+        "meta.at-rule.media keyword.operator.logical",
+        "entity.other.inherited-class.variant.twin",
       ],
       "settings": {
         "foreground": "#CC7832",
@@ -349,6 +350,12 @@
         "constant.other.character-class.range.regexp",
         "constant.other.character-class.set.regexp",
         "meta.embedded.expression string.quoted",
+        "punctuation.definition.string.template.begin.twin",
+        "punctuation.definition.string.template.end.twin",
+        "support.constant.classname.twin",
+        "punctuation.section.embedded.short-css.begin.twin",
+        "punctuation.section.embedded.short-css.end.twin",
+        "entity.name.variable.css-value.twin",
       ],
       "settings": {
         "foreground": "#6A8759"
