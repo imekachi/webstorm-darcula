@@ -1,3 +1,16 @@
+# [1.5.0](https://github.com/imekachi/webstorm-darcula/compare/v1.4.2...v1.5.0) (2021-03-21)
+
+
+### Bug Fixes
+
+* 🐛 html tag color to be more precise ([7e19eb1](https://github.com/imekachi/webstorm-darcula/commit/7e19eb1b0c8d7bf84271f4ffb6beda4765c3ca76))
+* 🐛 improve visibility of unused code ([4d06644](https://github.com/imekachi/webstorm-darcula/commit/4d0664479c5d94d4d89cff3ab240f083655f3df5))
+
+
+### Features
+
+* 🎸 support twin macro syntax highlighting ([38d66d4](https://github.com/imekachi/webstorm-darcula/commit/38d66d4b9faaa4f90ed9e80b350622024c754c93))
+
 ## [1.4.2](https://github.com/imekachi/webstorm-darcula/compare/v1.4.1...v1.4.2) (2021-03-17)
 
 
