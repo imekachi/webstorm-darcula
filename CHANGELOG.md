@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/imekachi/webstorm-darcula/compare/v1.5.0...v1.5.1) (2021-04-02)
+
+
+### Bug Fixes
+
+* 🐛 directive and bindings for Angular ([fa830df](https://github.com/imekachi/webstorm-darcula/commit/fa830df3d3bfee11f3bf8018106db71e98b7e440))
+
 # [1.5.0](https://github.com/imekachi/webstorm-darcula/compare/v1.4.2...v1.5.0) (2021-03-21)
 
 
