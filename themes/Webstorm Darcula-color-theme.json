@@ -233,6 +233,7 @@
         "keyword.operator.nulltype.graphql",
         "meta.at-rule.media keyword.operator.logical",
         "entity.other.inherited-class.variant.twin",
+        "text.html.derivative punctuation.definition.block.ts",
       ],
       "settings": {
         "foreground": "#CC7832",
@@ -308,6 +309,7 @@
         "string.unquoted.svelte",
         "string.quoted.svelte",
         "string.quoted.double.html",
+        "string.quoted.html",
         "string.quoted.single.html",
         "string.unquoted.html",
         "meta.directive.vue punctuation.definition.string.begin.html",
@@ -430,9 +432,24 @@
         "support.variable.property",
         "meta.field.declaration.tsx entity.name.function.tsx",
         "meta.tag.block.any.html meta.directive.vue variable.other.readwrite.js",
+        "entity.other.ng-binding-name"
       ],
       "settings": {
         "foreground": "#9876AA"
+      }
+    },
+    {
+      "name": "Purple Italic",
+      "scope": [
+        "entity.other.ng-binding-name.ngFor.html",
+        "entity.other.ng-binding-name.ngForOf.html",
+        "entity.other.ng-binding-name.ngIf.html",
+        "entity.other.ng-binding-name.ngClass.html",
+        "entity.other.ng-binding-name.ngStyle.html",
+      ],
+      "settings": {
+        "foreground": "#9876AA",
+        "fontStyle": "italic",
       }
     },
     {
