@@ -234,6 +234,7 @@
         "meta.at-rule.media keyword.operator.logical",
         "entity.other.inherited-class.variant.twin",
         "text.html.derivative punctuation.definition.block.ts",
+        "keyword.operator.expression",
       ],
       "settings": {
         "foreground": "#CC7832",
