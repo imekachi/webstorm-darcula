@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/imekachi/webstorm-darcula/compare/v1.5.1...v1.5.2) (2021-04-20)
+
+
+### Bug Fixes
+
+* 🐛 highlight for keyword operator like delete, instanceof ([27b6369](https://github.com/imekachi/webstorm-darcula/commit/27b6369789314ad3fd3b3311e4011eab53700350))
+
 ## [1.5.1](https://github.com/imekachi/webstorm-darcula/compare/v1.5.0...v1.5.1) (2021-04-02)
 
 
