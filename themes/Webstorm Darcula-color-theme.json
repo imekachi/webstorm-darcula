@@ -323,11 +323,19 @@
       }
     },
     {
+      "name": "Brown",
+      "scope": [
+        "variable.other.jsdoc",
+        "entity.name.type.instance.jsdoc",
+      ],
+      "settings": {
+        "foreground": "#8A653B"
+      }
+    },
+    {
       "name": "Green Comment Italic",
       "scope": [
         "comment.block.documentation",
-        "variable.other.jsdoc",
-        "entity.name.type.instance.jsdoc",
       ],
       "settings": {
         "fontStyle": "italic",
