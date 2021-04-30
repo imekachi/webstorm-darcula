@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/imekachi/webstorm-darcula/compare/v1.5.2...v1.5.3) (2021-04-30)
+
+
+### Bug Fixes
+
+* 🐛 update jsdoc highlight to match new WebStorm theme ([0e45ea5](https://github.com/imekachi/webstorm-darcula/commit/0e45ea501f7f6f8aa7896641ea981ca92a218b49))
+
 ## [1.5.2](https://github.com/imekachi/webstorm-darcula/compare/v1.5.1...v1.5.2) (2021-04-20)
 
 
