@@ -35,7 +35,7 @@ If you want to add more language support or have any idea to improve syntax high
 ![Diff Editor Preview](https://raw.githubusercontent.com/imekachi/webstorm-darcula/master/images/preview-diff.png)
 
 ## Limitation
-Since VSCode relies on textmate scopes as a sector for theme which sometimes cannot differentiate some syntax like WebStorm does. I cannot highlight some syntax, for example, global variables in JS, Generic Type in TS.
+Since VSCode relies on textmate scopes as a selector for theme which sometimes cannot differentiate some syntax like WebStorm. I cannot highlight some syntax, for example, global variables in JS, Generic Type in TS.
 
 ## Resources
 - [Webstorm IntelliJ Darcula Theme](https://marketplace.visualstudio.com/items?itemName=xr0master.webstorm-intellij-darcula-theme)
