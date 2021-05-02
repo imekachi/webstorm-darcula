@@ -162,6 +162,20 @@
     "titleBar.inactiveBackground": "#141414",
     "widget.shadow": "#1a1a1aaa",
   },
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "type": {
+      "foreground": "#A9B7C6",
+      "fontStyle": "normal normal",
+    },
+    "interface.defaultLibrary": {
+      "foreground": "#A9B7C6",
+      "fontStyle": "normal normal",
+    },
+    "enumMember": {
+      "fontStyle": "italic",
+    }
+  },
   "tokenColors": [
     {
       "name": "Comment",
@@ -176,6 +190,7 @@
       "name": "Gray",
       "scope": [
         "markup.fenced_code.block.markdown",
+        "markup.fenced_code.block.markdown support.function",
       ],
       "settings": {
         "foreground": "#72737A",
@@ -235,26 +250,30 @@
         "entity.other.inherited-class.variant.twin",
         "text.html.derivative punctuation.definition.block.ts",
         "keyword.operator.expression",
+        "variable.other.env",
+        "support.type.builtin",
       ],
       "settings": {
         "foreground": "#CC7832",
+        "fontStyle": "normal normal",
       }
     },
     {
       "name": "Yellow",
       "scope": [
         "entity.name.function",
-        "support.class",
         "support.function",
       ],
       "settings": {
-        "foreground": "#FFC66D"
+        "foreground": "#FFC66D",
+        "fontStyle": "normal normal"
       }
     },
     {
       "name": "Yellow little faded",
       "scope": [
         "meta.selector.css",
+        "support.function.misc.css",
         "entity.name.tag",
         "meta.function.color.css",
         "keyword.other.doctype.xml",
@@ -273,15 +292,19 @@
         "entity.other.attribute-name.scss",
         "markup.inline.raw.string.markdown",
         "punctuation.definition.markdown",
-        "fenced_code.block.language.markdown",
+        "fenced_code.block.language",
         "punctuation.definition.character-class.regexp",
         "constant.other.character-class.regexp",
         "punctuation.definition.group.regexp",
         "punctuation.definition.group.assertion.regexp",
         "support.class.component",
+        "variable.parameter.keyframe-list",
+        "entity.other.keyframe-offset",
+        "support.constant.font-name.css",
       ],
       "settings": {
         "foreground": "#e8bf6a",
+        "fontStyle": "normal normal",
       }
     },
     {
@@ -291,13 +314,15 @@
         "meta.decorator entity.name.function",
       ],
       "settings": {
-        "foreground": "#BBB529"
+        "foreground": "#BBB529",
+        "fontStyle": "normal normal",
       }
     },
     {
       "name": "GreenYellowish",
       "scope": [
         "support.constant.property-value.css",
+        "meta.property-value.css",
         "meta.property-value.css variable.parameter",
         "meta.property-value.scss variable.parameter",
         "meta.property-value.css keyword.other.unit",
@@ -320,16 +345,19 @@
       ],
       "settings": {
         "foreground": "#A5C261",
+        "fontStyle": "normal normal",
       }
     },
     {
-      "name": "Brown",
+      "name": "Brown italic",
       "scope": [
         "variable.other.jsdoc",
         "entity.name.type.instance.jsdoc",
+        "keyword.operator.assignment.jsdoc",
       ],
       "settings": {
-        "foreground": "#8A653B"
+        "foreground": "#8A653B",
+        "fontStyle": "italic normal",
       }
     },
     {
@@ -338,8 +366,8 @@
         "comment.block.documentation",
       ],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#629755"
+        "foreground": "#629755",
+        "fontStyle": "italic normal",
       }
     },
     {
@@ -349,8 +377,8 @@
         "storage.type.class.jsdoc",
       ],
       "settings": {
+        "foreground": "#629755",
         "fontStyle": "italic bold underline",
-        "foreground": "#629755"
       }
     },
     {
@@ -367,9 +395,13 @@
         "punctuation.section.embedded.short-css.begin.twin",
         "punctuation.section.embedded.short-css.end.twin",
         "entity.name.variable.css-value.twin",
+        "meta.attribute-selector",
+        "source.env",
+        "constant.numeric.env",
       ],
       "settings": {
-        "foreground": "#6A8759"
+        "foreground": "#6A8759",
+        "fontStyle": "normal normal",
       }
     },
     {
@@ -379,7 +411,7 @@
       ],
       "settings": {
         "foreground": "#6A8759",
-        "fontStyle": "italic"
+        "fontStyle": "italic normal"
       }
     },
     {
@@ -392,6 +424,7 @@
       ],
       "settings": {
         "foreground": "#507874",
+        "fontStyle": "normal normal",
       }
     },
     {
@@ -404,7 +437,8 @@
         "keyword.operator.quantifier.regexp",
       ],
       "settings": {
-        "foreground": "#6897BB"
+        "foreground": "#6897BB",
+        "fontStyle": "normal normal",
       }
     },
     {
@@ -414,6 +448,7 @@
       ],
       "settings": {
         "foreground": "#6D9CBE",
+        "fontStyle": "normal normal",
       }
     },
     {
@@ -423,7 +458,8 @@
         "markup.underline.link.markdown",
       ],
       "settings": {
-        "foreground": "#589DF6"
+        "foreground": "#589DF6",
+        "fontStyle": "normal normal",
       }
     },
     {
@@ -444,7 +480,8 @@
         "entity.other.ng-binding-name"
       ],
       "settings": {
-        "foreground": "#9876AA"
+        "foreground": "#9876AA",
+        "fontStyle": "normal normal",
       }
     },
     {
@@ -458,7 +495,7 @@
       ],
       "settings": {
         "foreground": "#9876AA",
-        "fontStyle": "italic",
+        "fontStyle": "italic normal",
       }
     },
     {
@@ -469,6 +506,7 @@
         "support.constant.json",
         "markup.heading.markdown",
         "support.class.builtin",
+        "support",
       ],
       "settings": {
         "foreground": "#9876AA",
@@ -514,9 +552,14 @@
         "string.unquoted.plain.out.yaml",
         "meta.directive.vue punctuation.separator.key-value.html",
         "keyword.operator.logical.php",
+        "punctuation.separator.key-value",
+        "punctuation.definition.attribute-selector",
+        "keyword.control.flow.block-scalar.literal.yaml",
+        "string.unquoted.block.yaml",
       ],
       "settings": {
-        "foreground": "#A9B7C6"
+        "foreground": "#A9B7C6",
+        "fontStyle": "normal normal",
       }
     },
     {
@@ -529,10 +572,13 @@
         "meta.property-name.css",
         "meta.property-list.scss entity.name.tag.css",
         "entity.other.attribute-name",
-        "support.type.property-name.media.css"
+        "support.type.property-name.media.css",
+        "support.type.vendored.property-name",
+        "variable.language.svelte",
       ],
       "settings": {
         "foreground": "#BABABA",
+        "fontStyle": "normal normal",
       }
     },
   ]
