@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/imekachi/webstorm-darcula/compare/v1.5.3...v1.6.0) (2021-05-02)
+
+
+### Features
+
+* 🎸 enable semantic highlighting and a lot of improvements ([7c58b4e](https://github.com/imekachi/webstorm-darcula/commit/7c58b4edfb6ad6da5d70ec3b3b41f6dd5dc1aca0))
+
 ## [1.5.3](https://github.com/imekachi/webstorm-darcula/compare/v1.5.2...v1.5.3) (2021-04-30)
 
 
