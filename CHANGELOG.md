@@ -1,3 +1,11 @@
+## [1.6.1](https://github.com/imekachi/webstorm-darcula/compare/v1.6.0...v1.6.1) (2021-05-06)
+
+
+### Bug Fixes
+
+* obnoxious commentRange line in editorGutter ([62d72e1](https://github.com/imekachi/webstorm-darcula/commit/62d72e1236814a323508db02c002a41f4b90d74d))
+* unset fontStyles by using empty string ([e4793a5](https://github.com/imekachi/webstorm-darcula/commit/e4793a58497bb19604e5fc91c9300b774574a5e6))
+
 # [1.6.0](https://github.com/imekachi/webstorm-darcula/compare/v1.5.3...v1.6.0) (2021-05-02)
 
 
