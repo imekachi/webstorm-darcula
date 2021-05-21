@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/imekachi/webstorm-darcula/compare/v1.6.1...v1.6.2) (2021-05-21)
+
+
+### Bug Fixes
+
+* invalid highlighting on comma in css color function ([7cb3651](https://github.com/imekachi/webstorm-darcula/commit/7cb365127312afe29bec6424ec20c59a2c785778))
+
 ## [1.6.1](https://github.com/imekachi/webstorm-darcula/compare/v1.6.0...v1.6.1) (2021-05-06)
 
 
