@@ -253,6 +253,7 @@
         "keyword.operator.expression",
         "variable.other.env",
         "support.type.builtin",
+        "meta.function.color.css",
       ],
       "settings": {
         "foreground": "#CC7832",
@@ -276,7 +277,6 @@
         "meta.selector.css",
         "support.function.misc.css",
         "entity.name.tag",
-        "meta.function.color.css",
         "keyword.other.doctype.xml",
         "meta.at-rule.header.css",
         "punctuation.definition.tag",
