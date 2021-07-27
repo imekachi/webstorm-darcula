@@ -1,3 +1,10 @@
+## [1.6.4](https://github.com/imekachi/webstorm-darcula/compare/v1.6.3...v1.6.4) (2021-07-27)
+
+
+### Bug Fixes
+
+* add theme for inlayHint ([586569f](https://github.com/imekachi/webstorm-darcula/commit/586569f7f17a380de372fc8b372b031828aa0bac))
+
 ## [1.6.3](https://github.com/imekachi/webstorm-darcula/compare/v1.6.2...v1.6.3) (2021-07-27)
 
 
