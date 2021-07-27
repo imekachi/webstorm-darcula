@@ -1,3 +1,11 @@
+## [1.6.3](https://github.com/imekachi/webstorm-darcula/compare/v1.6.2...v1.6.3) (2021-07-27)
+
+
+### Bug Fixes
+
+* change the title bar color to match the new webstorm v2021.2 aesthetic ([f3aefdc](https://github.com/imekachi/webstorm-darcula/commit/f3aefdc257bb9161a1c8f51f7452c4816a5bfae6))
+* exclude some files from being packaged in vsix ([b70308a](https://github.com/imekachi/webstorm-darcula/commit/b70308aac1817d5d1050693523d78087840a7e04))
+
 ## [1.6.2](https://github.com/imekachi/webstorm-darcula/compare/v1.6.1...v1.6.2) (2021-05-21)
 
 

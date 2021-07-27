@@ -6,9 +6,9 @@
   "author": {
     "name": "Saran Weerakun"
   },
-  "version": "1.6.2",
+  "version": "1.6.3",
   "scripts": {
-    "release": "vsce-release semantic-release && rm *.vsix"
+    "release": "semantic-release && rm *.vsix"
   },
   "engines": {
     "vscode": "^1.53.0"
