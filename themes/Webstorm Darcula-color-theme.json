@@ -99,6 +99,8 @@
     "panelSection.border": "#323232",
     "parameterHints.hintBackground": "#3B3B3B",
     "parameterHints.hintForeground": "#787878",
+    "editorInlayHint.background": "#3B3B3B",
+    "editorInlayHint.foreground": "#787878",
     "peekView.border": "#646464",
     "peekViewEditor.background": "#2b2b2b",
     "peekViewEditor.matchHighlightBackground": "#344134",
