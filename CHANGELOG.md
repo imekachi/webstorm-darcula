@@ -1,3 +1,10 @@
+## [1.6.6](https://github.com/imekachi/webstorm-darcula/compare/v1.6.5...v1.6.6) (2021-08-16)
+
+
+### Bug Fixes
+
+* css highlighting and PostCSS nested syntax support ([8503d8a](https://github.com/imekachi/webstorm-darcula/commit/8503d8a48bd5ef6acd590a8ec07a61b8f47bb360))
+
 ## [1.6.5](https://github.com/imekachi/webstorm-darcula/compare/v1.6.4...v1.6.5) (2021-08-16)
 
 
