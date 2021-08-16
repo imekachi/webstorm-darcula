@@ -257,6 +257,8 @@
         "variable.other.env",
         "support.type.builtin",
         "meta.function.color.css",
+        "entity.name.type.terraform",
+        "entity.name.label.terraform",
       ],
       "settings": {
         "foreground": "#CC7832",
@@ -560,6 +562,8 @@
         "punctuation.definition.attribute-selector",
         "keyword.control.flow.block-scalar.literal.yaml",
         "string.unquoted.block.yaml",
+        "keyword.other.interpolation.begin",
+        "keyword.other.interpolation.end",
       ],
       "settings": {
         "foreground": "#A9B7C6",
