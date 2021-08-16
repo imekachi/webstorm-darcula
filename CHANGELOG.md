@@ -1,3 +1,11 @@
+## [1.6.5](https://github.com/imekachi/webstorm-darcula/compare/v1.6.4...v1.6.5) (2021-08-16)
+
+
+### Bug Fixes
+
+* editorWarning style to match WebStorm ([29521c5](https://github.com/imekachi/webstorm-darcula/commit/29521c53c313ab0d86c592bc01579416327b5483))
+* some terraform syntax highlighting ([718f082](https://github.com/imekachi/webstorm-darcula/commit/718f0827ea6f0ac53995f1671853f35dfd873bd7))
+
 ## [1.6.4](https://github.com/imekachi/webstorm-darcula/compare/v1.6.3...v1.6.4) (2021-07-27)
 
 
