@@ -270,6 +270,7 @@
       "scope": [
         "entity.name.function",
         "support.function",
+        "support.constant.property-value.misc.css",
       ],
       "settings": {
         "foreground": "#FFC66D",
@@ -564,6 +565,7 @@
         "string.unquoted.block.yaml",
         "keyword.other.interpolation.begin",
         "keyword.other.interpolation.end",
+        "meta.block.curly.misc.css",
       ],
       "settings": {
         "foreground": "#A9B7C6",
@@ -583,6 +585,7 @@
         "support.type.property-name.media.css",
         "support.type.vendored.property-name",
         "variable.language.svelte",
+        "source.css entity.name.tag",
       ],
       "settings": {
         "foreground": "#BABABA",
