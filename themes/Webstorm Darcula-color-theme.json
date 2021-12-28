@@ -408,6 +408,7 @@
         "meta.attribute-selector",
         "source.env",
         "constant.numeric.env",
+        "meta.tag.attributes keyword.operator.assignment"
       ],
       "settings": {
         "foreground": "#6A8759",
