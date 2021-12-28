@@ -178,6 +178,9 @@
     },
     "enumMember": {
       "fontStyle": "italic",
+    },
+    "typeParameter": {
+      "foreground": "#507874"
     }
   },
   "tokenColors": [
