@@ -311,6 +311,8 @@
         "variable.parameter.keyframe-list",
         "entity.other.keyframe-offset",
         "support.constant.font-name.css",
+        "source.css entity.name.tag",
+        "entity.other.attribute-name.id punctuation.definition.entity",
       ],
       "settings": {
         "foreground": "#e8bf6a",
@@ -589,7 +591,6 @@
         "support.type.property-name.media.css",
         "support.type.vendored.property-name",
         "variable.language.svelte",
-        "source.css entity.name.tag",
       ],
       "settings": {
         "foreground": "#BABABA",
