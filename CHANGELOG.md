@@ -1,3 +1,13 @@
+## [1.6.7](https://github.com/imekachi/webstorm-darcula/compare/v1.6.6...v1.6.7) (2022-02-23)
+
+
+### Bug Fixes
+
+* improve css highlighting ([cb21645](https://github.com/imekachi/webstorm-darcula/commit/cb2164519e1ff27d4da1f3dc9af260f4ba032909))
+* typescript type parameters highlighting ([135456b](https://github.com/imekachi/webstorm-darcula/commit/135456b1344976389f2f9a8e7749103ae56e812d))
+* update assignment operator color on jsx to match webstorm's ([a4cac32](https://github.com/imekachi/webstorm-darcula/commit/a4cac32c84e063e18af21e21fc859e6ad2144289))
+* update inlayHint color to improve visibility ([0d4b375](https://github.com/imekachi/webstorm-darcula/commit/0d4b375a9ad380f7c62574f8a639dde9d07ef8da))
+
 ## [1.6.6](https://github.com/imekachi/webstorm-darcula/compare/v1.6.5...v1.6.6) (2021-08-16)
 
 
