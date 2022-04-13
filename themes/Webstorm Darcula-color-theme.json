@@ -572,6 +572,7 @@
         "keyword.other.interpolation.begin",
         "keyword.other.interpolation.end",
         "meta.block.curly.misc.css",
+        "punctuation.definition.tag.prisma"
       ],
       "settings": {
         "foreground": "#A9B7C6",
