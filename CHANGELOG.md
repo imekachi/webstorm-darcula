@@ -1,3 +1,11 @@
+## [1.6.8](https://github.com/imekachi/webstorm-darcula/compare/v1.6.7...v1.6.8) (2022-04-20)
+
+
+### Bug Fixes
+
+* improve visibility on editor gutter line status ([c4f0786](https://github.com/imekachi/webstorm-darcula/commit/c4f0786c7e6060d4707ea20af9b0cb917c2be6dd))
+* render prisma syntax correctly ([7943449](https://github.com/imekachi/webstorm-darcula/commit/79434490331296f3fba2aeb3c32ae3102b08547f))
+
 ## [1.6.7](https://github.com/imekachi/webstorm-darcula/compare/v1.6.6...v1.6.7) (2022-02-23)
 
 
