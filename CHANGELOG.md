@@ -1,3 +1,10 @@
+## [1.6.9](https://github.com/imekachi/webstorm-darcula/compare/v1.6.8...v1.6.9) (2022-05-02)
+
+
+### Bug Fixes
+
+* improve graphql syntax highlighting ([58d33b4](https://github.com/imekachi/webstorm-darcula/commit/58d33b416b28b8f8a9a6b2d266832b7ba3ca4b7b))
+
 ## [1.6.8](https://github.com/imekachi/webstorm-darcula/compare/v1.6.7...v1.6.8) (2022-04-20)
 
 
