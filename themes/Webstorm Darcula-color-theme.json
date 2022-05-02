@@ -251,7 +251,6 @@
         "punctuation.definition.string.end.markdown",
         "punctuation.definition.metadata.markdown",
         "meta.directive.vue keyword.operator.expression.in.js",
-        "punctuation.colon.graphql",
         "keyword.operator.nulltype.graphql",
         "meta.at-rule.media keyword.operator.logical",
         "entity.other.inherited-class.variant.twin",
@@ -262,6 +261,7 @@
         "meta.function.color.css",
         "entity.name.type.terraform",
         "entity.name.label.terraform",
+        "punctuation.comma.graphql",
       ],
       "settings": {
         "foreground": "#CC7832",
@@ -274,6 +274,8 @@
         "entity.name.function",
         "support.function",
         "support.constant.property-value.misc.css",
+        "entity.name.fragment.graphql",
+        "variable.fragment.graphql",
       ],
       "settings": {
         "foreground": "#FFC66D",
@@ -490,7 +492,7 @@
         "support.variable.property",
         "meta.field.declaration.tsx entity.name.function.tsx",
         "meta.tag.block.any.html meta.directive.vue variable.other.readwrite.js",
-        "entity.other.ng-binding-name"
+        "entity.other.ng-binding-name",
       ],
       "settings": {
         "foreground": "#9876AA",
@@ -572,7 +574,12 @@
         "keyword.other.interpolation.begin",
         "keyword.other.interpolation.end",
         "meta.block.curly.misc.css",
-        "punctuation.definition.tag.prisma"
+        "punctuation.definition.tag.prisma",
+        "string.unquoted.graphql",
+        "support.type.graphql",
+        "keyword.operator.spread.graphql",
+        "punctuation.colon.graphql",
+        "variable.parameter.graphql",
       ],
       "settings": {
         "foreground": "#A9B7C6",
