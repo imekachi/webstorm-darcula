@@ -516,12 +516,13 @@
     {
       "name": "Purple Bold Italic",
       "scope": [
+        "support",
         "support.constant.math",
         "support.constant.dom",
         "support.constant.json",
-        "markup.heading.markdown",
         "support.class.builtin",
-        "support",
+        "markup.heading.markdown",
+        "constant.character.enum.graphql",
       ],
       "settings": {
         "foreground": "#9876AA",
@@ -580,6 +581,7 @@
         "keyword.operator.spread.graphql",
         "punctuation.colon.graphql",
         "variable.parameter.graphql",
+        "support.type.enum.graphql",
       ],
       "settings": {
         "foreground": "#A9B7C6",
