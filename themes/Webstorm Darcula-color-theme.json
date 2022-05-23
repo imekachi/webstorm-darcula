@@ -315,6 +315,7 @@
         "support.constant.font-name.css",
         "source.css entity.name.tag",
         "entity.other.attribute-name.id punctuation.definition.entity",
+        "entity.other.attribute-name.pseudo-class",
       ],
       "settings": {
         "foreground": "#e8bf6a",
