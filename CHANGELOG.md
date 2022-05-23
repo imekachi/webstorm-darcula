@@ -1,3 +1,11 @@
+## [1.6.10](https://github.com/imekachi/webstorm-darcula/compare/v1.6.9...v1.6.10) (2022-05-23)
+
+
+### Bug Fixes
+
+* **css:** psudo-class highlighting ([01b8c8a](https://github.com/imekachi/webstorm-darcula/commit/01b8c8ab5b632798735ec692c847972f165df6f7))
+* add support for enum and enum values in graphql ([ea37379](https://github.com/imekachi/webstorm-darcula/commit/ea3737913111970ab6d5adc31d9a6d2a36c148c5))
+
 ## [1.6.9](https://github.com/imekachi/webstorm-darcula/compare/v1.6.8...v1.6.9) (2022-05-02)
 
 
