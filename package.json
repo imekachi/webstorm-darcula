@@ -6,7 +6,7 @@
   "author": {
     "name": "Saran Weerakun"
   },
-  "version": "1.6.10",
+  "version": "1.6.11",
   "scripts": {
     "release": "semantic-release && rm *.vsix"
   },

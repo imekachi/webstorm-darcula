@@ -1,3 +1,10 @@
+## [1.6.11](https://github.com/imekachi/webstorm-darcula/compare/v1.6.10...v1.6.11) (2022-11-03)
+
+
+### Bug Fixes
+
+* add suport for the new diffEditor.insertedLine ([31f6d78](https://github.com/imekachi/webstorm-darcula/commit/31f6d788fb117e9a8a66d4b0355382dab25e2389))
+
 ## [1.6.10](https://github.com/imekachi/webstorm-darcula/compare/v1.6.9...v1.6.10) (2022-05-23)
 
 
