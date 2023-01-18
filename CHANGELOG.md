@@ -1,3 +1,11 @@
+# [1.7.0](https://github.com/imekachi/webstorm-darcula/compare/v1.6.11...v1.7.0) (2023-01-18)
+
+
+### Features
+
+* support the latest darcula color scheme ([02f81bf](https://github.com/imekachi/webstorm-darcula/commit/02f81bf24bddad81e481b7a57bafa3284425052d))
+* support the latest darcula color scheme ([c879f3d](https://github.com/imekachi/webstorm-darcula/commit/c879f3d25e0fc951305b47e2fd2c81e0ba840fa7))
+
 ## [1.6.11](https://github.com/imekachi/webstorm-darcula/compare/v1.6.10...v1.6.11) (2022-11-03)
 
 
