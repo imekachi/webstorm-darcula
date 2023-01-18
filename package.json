@@ -29,7 +29,12 @@
       {
         "label": "Webstorm Darcula",
         "uiTheme": "vs-dark",
-        "path": "./themes/Webstorm Darcula-color-theme.json"
+        "path": "./themes/darcula-latest.json"
+      },
+      {
+        "label": "Webstorm Darcula 2022",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darcula-2022.json"
       }
     ]
   },

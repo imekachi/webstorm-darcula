@@ -1,5 +1,5 @@
 {
-  "name": "Webstorm Darcula",
+  "name": "Webstorm Darcula 2023",
   "type": "dark",
   "colors": {
     "activityBar.background": "#3b3f41",
@@ -166,20 +166,20 @@
     "textPreformat.foreground": "#FFC66D",
     "titleBar.activeBackground": "#3b3f41",
     "titleBar.inactiveBackground": "#3b3f41",
-    "widget.shadow": "#1a1a1aaa",
+    "widget.shadow": "#1a1a1aaa"
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "type": {
       "foreground": "#A9B7C6",
-      "fontStyle": "",
+      "fontStyle": ""
     },
     "interface.defaultLibrary": {
       "foreground": "#A9B7C6",
-      "fontStyle": "",
+      "fontStyle": ""
     },
     "enumMember": {
-      "fontStyle": "italic",
+      "fontStyle": "italic"
     },
     "typeParameter": {
       "foreground": "#507874"
@@ -199,10 +199,10 @@
       "name": "Gray",
       "scope": [
         "markup.fenced_code.block.markdown",
-        "markup.fenced_code.block.markdown support.function",
+        "markup.fenced_code.block.markdown support.function"
       ],
       "settings": {
-        "foreground": "#72737A",
+        "foreground": "#72737A"
       }
     },
     {
@@ -263,11 +263,11 @@
         "meta.function.color.css",
         "entity.name.type.terraform",
         "entity.name.label.terraform",
-        "punctuation.comma.graphql",
+        "punctuation.comma.graphql"
       ],
       "settings": {
         "foreground": "#CC7832",
-        "fontStyle": "",
+        "fontStyle": ""
       }
     },
     {
@@ -277,7 +277,7 @@
         "support.function",
         "support.constant.property-value.misc.css",
         "entity.name.fragment.graphql",
-        "variable.fragment.graphql",
+        "variable.fragment.graphql"
       ],
       "settings": {
         "foreground": "#FFC66D",
@@ -318,21 +318,33 @@
         "source.css entity.name.tag",
         "entity.other.attribute-name.id punctuation.definition.entity",
         "entity.other.attribute-name.pseudo-class",
+        "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.tsx"
       ],
       "settings": {
         "foreground": "#e8bf6a",
-        "fontStyle": "",
+        "fontStyle": ""
       }
+    },
+    {
+      "name": "Jade",
+      "scope": [
+        "entity.name.tag.tsx support.class.component"
+      ],
+      "settings": {
+        "foreground": "#26BDA4",
+        "fontStyle": ""
+      } 
     },
     {
       "name": "YellowGreenish",
       "scope": [
         "punctuation.decorator",
-        "meta.decorator entity.name.function",
+        "meta.decorator entity.name.function"
       ],
       "settings": {
         "foreground": "#BBB529",
-        "fontStyle": "",
+        "fontStyle": ""
       }
     },
     {
@@ -358,11 +370,11 @@
         "meta.directive.vue punctuation.definition.string.begin.html",
         "meta.directive.vue punctuation.definition.string.end.html",
         "support.constant.media.css",
-        "support.constant.color.w3c-standard-color-name.css",
+        "support.constant.color.w3c-standard-color-name.css"
       ],
       "settings": {
         "foreground": "#A5C261",
-        "fontStyle": "",
+        "fontStyle": ""
       }
     },
     {
@@ -370,32 +382,32 @@
       "scope": [
         "variable.other.jsdoc",
         "entity.name.type.instance.jsdoc",
-        "keyword.operator.assignment.jsdoc",
+        "keyword.operator.assignment.jsdoc"
       ],
       "settings": {
         "foreground": "#8A653B",
-        "fontStyle": "italic",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Green Comment Italic",
       "scope": [
-        "comment.block.documentation",
+        "comment.block.documentation"
       ],
       "settings": {
         "foreground": "#629755",
-        "fontStyle": "italic",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Green Comment Italic Bold Underline",
       "scope": [
         "punctuation.definition.block.tag.jsdoc",
-        "storage.type.class.jsdoc",
+        "storage.type.class.jsdoc"
       ],
       "settings": {
         "foreground": "#629755",
-        "fontStyle": "italic bold underline",
+        "fontStyle": "italic bold underline"
       }
     },
     {
@@ -419,13 +431,13 @@
       ],
       "settings": {
         "foreground": "#6A8759",
-        "fontStyle": "",
+        "fontStyle": ""
       }
     },
     {
       "name": "Green String Italic",
       "scope": [
-        "markup.quote.markdown",
+        "markup.quote.markdown"
       ],
       "settings": {
         "foreground": "#6A8759",
@@ -438,11 +450,11 @@
         "meta.type.parameters.ts",
         "meta.type.parameters.tsx",
         "meta.type.parameters.ts entity.name.type.ts",
-        "meta.type.parameters.tsx entity.name.type.tsx",
+        "meta.type.parameters.tsx entity.name.type.tsx"
       ],
       "settings": {
         "foreground": "#507874",
-        "fontStyle": "",
+        "fontStyle": ""
       }
     },
     {
@@ -452,32 +464,32 @@
         "string.regexp punctuation.definition.string.begin",
         "string.regexp punctuation.definition.string.end",
         "constant.other.color.rgb-value.hex.css",
-        "keyword.operator.quantifier.regexp",
+        "keyword.operator.quantifier.regexp"
       ],
       "settings": {
         "foreground": "#6897BB",
-        "fontStyle": "",
+        "fontStyle": ""
       }
     },
     {
       "name": "Another blue",
       "scope": [
-        "variable.scss",
+        "variable.scss"
       ],
       "settings": {
         "foreground": "#6D9CBE",
-        "fontStyle": "",
+        "fontStyle": ""
       }
     },
     {
       "name": "Bright Blue",
       "scope": [
         "markup.underline.link.image.markdown",
-        "markup.underline.link.markdown",
+        "markup.underline.link.markdown"
       ],
       "settings": {
         "foreground": "#589DF6",
-        "fontStyle": "",
+        "fontStyle": ""
       }
     },
     {
@@ -495,11 +507,11 @@
         "support.variable.property",
         "meta.field.declaration.tsx entity.name.function.tsx",
         "meta.tag.block.any.html meta.directive.vue variable.other.readwrite.js",
-        "entity.other.ng-binding-name",
+        "entity.other.ng-binding-name"
       ],
       "settings": {
         "foreground": "#9876AA",
-        "fontStyle": "",
+        "fontStyle": ""
       }
     },
     {
@@ -509,11 +521,11 @@
         "entity.other.ng-binding-name.ngForOf.html",
         "entity.other.ng-binding-name.ngIf.html",
         "entity.other.ng-binding-name.ngClass.html",
-        "entity.other.ng-binding-name.ngStyle.html",
+        "entity.other.ng-binding-name.ngStyle.html"
       ],
       "settings": {
         "foreground": "#9876AA",
-        "fontStyle": "italic",
+        "fontStyle": "italic"
       }
     },
     {
@@ -525,11 +537,11 @@
         "support.constant.json",
         "support.class.builtin",
         "markup.heading.markdown",
-        "constant.character.enum.graphql",
+        "constant.character.enum.graphql"
       ],
       "settings": {
         "foreground": "#9876AA",
-        "fontStyle": "italic bold",
+        "fontStyle": "italic bold"
       }
     },
     {
@@ -562,8 +574,6 @@
         "punctuation.definition.template-expression.begin.js",
         "punctuation.definition.template-expression.end.js",
         "punctuation.separator.key-value.js",
-        "punctuation.section.embedded.begin.tsx",
-        "punctuation.section.embedded.end.tsx",
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
         "meta.var-single-variable.expr.tsx entity.name.type.tsx",
@@ -584,11 +594,11 @@
         "keyword.operator.spread.graphql",
         "punctuation.colon.graphql",
         "variable.parameter.graphql",
-        "support.type.enum.graphql",
+        "support.type.enum.graphql"
       ],
       "settings": {
         "foreground": "#A9B7C6",
-        "fontStyle": "",
+        "fontStyle": ""
       }
     },
     {
@@ -603,12 +613,12 @@
         "entity.other.attribute-name",
         "support.type.property-name.media.css",
         "support.type.vendored.property-name",
-        "variable.language.svelte",
+        "variable.language.svelte"
       ],
       "settings": {
         "foreground": "#BABABA",
-        "fontStyle": "",
+        "fontStyle": ""
       }
-    },
+    }
   ]
 }
