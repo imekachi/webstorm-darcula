@@ -8,7 +8,7 @@
     "activityBar.inactiveForeground": "#aeb1b3",
     "activityBar.activeBorder": "#2f8acc00",
     "activityBar.activeFocusBorder": "#2f8acc00",
-    "activityBar.activeBackground": "#2c2e30",
+    "activityBar.activeBackground": "#4f5157",
     "activityBarBadge.background": "#cc7832",
     "activityBarBadge.foreground": "#ffffff",
     "breadcrumb.background": "#303335",
@@ -16,7 +16,7 @@
     "dropdown.border": "#4b4b4b",
     "dropdown.foreground": "#bababa",
     "debugIcon.breakpointForeground": "#d74a4b",
-    "editor.background": "#2b2b2b",
+    "editor.background": "#1e1f22",
     "editor.foreground": "#a9b7c6",
     "editor.findMatchBackground": "#214283",
     "editor.findMatchBorder": "#bbbbbb",
@@ -37,7 +37,7 @@
     "editorWarning.foreground": "#aeae8000",
     "editorWarning.background": "#fff4801a",
     "editorInfo.foreground": "#659C6B",
-    "editorGutter.background": "#313336",
+    "editorGutter.background": "#1e1f22",
     "editorGutter.addedBackground": "#384C38",
     "editorGutter.deletedBackground": "#626f77",
     "editorGutter.modifiedBackground": "#43698D",
@@ -136,13 +136,13 @@
     "statusBar.debuggingBackground": "#44484a",
     "statusBar.debuggingBorder": "#4e4e4e",
     "statusBar.debuggingForeground": "#bababa",
-    "tab.activeBackground": "#4d5254",
-    "tab.activeBorder": "#2f8acc",
-    "tab.activeForeground": "#bbbbbb",
+    "tab.activeBackground": "#1e1f22",
+    "tab.activeBorder": "#3474f0",
+    "tab.activeForeground": "#ffffff",
     "tab.activeModifiedBorder": "#2f8acc",
     "tab.inactiveModifiedBorder": "#727a80",
-    "tab.border": "#4b4b4b00",
-    "tab.inactiveBackground": "#3b3f41",
+    "tab.border": "#1e1f22",
+    "tab.inactiveBackground": "#1e1f22",
     "tab.inactiveForeground": "#bbbbbb",
     "tab.unfocusedActiveBorder": "#727a80",
     "tab.unfocusedActiveBackground": "#4d5254",
@@ -150,12 +150,12 @@
     "tab.unfocusedInactiveForeground": "#bbbbbb",
     "tab.unfocusedActiveForeground": "#bbbbbb",
     "tab.unfocusedInactiveModifiedBorder": "#727a80",
-    "tab.hoverBackground": "#26292a",
+    "tab.hoverBackground": "#1e1f22",
     "tab.unfocusedHoverBackground": "#26292a",
     "editorPane.background": "#3b3f41",
     "editorGroup.border": "#323232",
     "editorGroupHeader.noTabsBackground": "#3b3f41",
-    "editorGroupHeader.tabsBackground": "#3b3f41",
+    "editorGroupHeader.tabsBackground": "#1e1f22",
     "editorGroupHeader.tabsBorder": "#323232",
     "editorGroupHeader.border": "#323232",
     "textBlockQuote.border": "#496388",
@@ -188,9 +188,7 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": [
-        "comment"
-      ],
+      "scope": ["comment"],
       "settings": {
         "foreground": "#808080"
       }
@@ -212,7 +210,7 @@
         "keyword.operator.new",
         "variable.language.this",
         "constant.character.escape",
-        "meta.namespace.declaration",        
+        "meta.namespace.declaration",
         "punctuation.terminator.rule.css",
         "punctuation.terminator.statement",
         "punctuation.separator.comma",
@@ -328,20 +326,15 @@
     },
     {
       "name": "Jade",
-      "scope": [
-        "entity.name.tag.tsx support.class.component"
-      ],
+      "scope": ["entity.name.tag.tsx support.class.component"],
       "settings": {
         "foreground": "#26BDA4",
         "fontStyle": ""
-      } 
+      }
     },
     {
       "name": "YellowGreenish",
-      "scope": [
-        "punctuation.decorator",
-        "meta.decorator entity.name.function"
-      ],
+      "scope": ["punctuation.decorator", "meta.decorator entity.name.function"],
       "settings": {
         "foreground": "#BBB529",
         "fontStyle": ""
@@ -391,9 +384,7 @@
     },
     {
       "name": "Green Comment Italic",
-      "scope": [
-        "comment.block.documentation"
-      ],
+      "scope": ["comment.block.documentation"],
       "settings": {
         "foreground": "#629755",
         "fontStyle": "italic"
@@ -436,9 +427,7 @@
     },
     {
       "name": "Green String Italic",
-      "scope": [
-        "markup.quote.markdown"
-      ],
+      "scope": ["markup.quote.markdown"],
       "settings": {
         "foreground": "#6A8759",
         "fontStyle": "italic"
@@ -473,9 +462,7 @@
     },
     {
       "name": "Another blue",
-      "scope": [
-        "variable.scss"
-      ],
+      "scope": ["variable.scss"],
       "settings": {
         "foreground": "#6D9CBE",
         "fontStyle": ""
